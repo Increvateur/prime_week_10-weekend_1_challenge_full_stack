@@ -1,0 +1,41 @@
+body {
+  background-color: #363942;
+  color: #D8CAA8;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.header {
+  background-color: #382513;
+  text-align: center;
+}
+
+div.sidebar {
+  background-color: #284907;
+  position: fixed;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+div.person {
+  padding: 15px 30px 15px 0;
+  display: inline-block;
+
+}
+
+input {
+color: #000000;
+}
+
+div.main-display {
+  background-color: #5C832F;
+  float: right;
+  height: 100%;
+}
+div.employee-display {
+  padding-bottom: 30px;
+  display:
+}

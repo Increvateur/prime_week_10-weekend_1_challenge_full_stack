@@ -1,0 +1,24 @@
+{
+  "name": "weekend_challenge_4",
+  "version": "1.0.0",
+  "description": "Prime Week 10 - Weekend Challenge #4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Matthew Keymer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "jquery": "^2.2.2",
+    "path": "^0.12.7",
+    "pg": "^4.5.1"
+  }
+}

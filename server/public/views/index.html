@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekend #1 Challenge Full Stack</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 header">
+          <h1>WEEKEND #1 CHALLENGE FULL STACK</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 sidebar">
+          <h1>Enter Employee</h1>
+          <p class="error"></p>
+          <form id="salaryForm" class="salaryForm">
+            <label for="first-name">Employee's First Name:</label><br />
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" required="true" /><br /><br />
+            <label for="last-name">Employee's Last Name:</label><br />
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required="true" /><br /><br />
+            <label for="employee-id">Employee's ID #:</label><br />
+            <input type="number" id="employeeid" name="employeeid" placeholder="ID #" required="true" /><br /><br />
+            <label for="job-title">Employee's Job Title:</label><br />
+            <input type="text" id="jobtitle" name="jobtitle" placeholder="Job Title" required="true" /><br /><br />
+            <label for="salary">Employee's Yearly Salary:</label><br />
+            <input type="number" id="salary" name="salary" placeholder="Yearly Salary" required="true" /><br /><br />
+            <input type="submit" value="Submit" /><br /><br />
+
+            <p class="total-monthly">Money Spent Monthly on Employee Salaries:</p>
+          </form>
+        </div>
+        <div class="col-lg-9 main-display">
+          <h1>Active Employees</h1>
+          <div class="employee-display"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
